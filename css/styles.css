@@ -1,0 +1,245 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+
+
+p{
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* CONTAINER */
+
+.container-fluid{
+  padding: 7% 15% ;  /*The top and bottom 7% , and 15% left and right , this is a Bootstrap class to keep it responsive*/
+
+}
+
+
+
+/* SECTIONS */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+
+
+
+
+
+/* NAVAGATION BAR */
+
+
+/* This will be 0 to the top 0 to the left and right and 4.5 to the bottom so its aligned more with the text  */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+
+}
+
+.nav-item{              /* This will create space between the Download , Pricing, and Contact */
+  padding: 0 18px;
+}
+
+.nav-link{               /* This will target the size of the links */
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+
+
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+
+
+/* TITLE PHONE IMAGE  */
+
+.phone-image{                  /*The rotate will move the image to the right 25 degrees */
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;          /*This will help put the position of the phone image behind the feature section */
+  right: 30%;
+}
+
+
+
+
+/* TITLE SECTION */
+
+
+#title .container-fluid{    /* This will apply the padding to the container fluid specfically in the title section, different from the others, This will overwrite the other container fluid paddding because its more specific to title */
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+
+
+
+/* FEATURES SECTION OF THE WEBSITE */
+
+
+#features{
+  position: relative;       /* This will keep the element in the HTML flow, 7% top and bottom and 15% left and right so that it is centered */
+
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-section{      /* The padding helps to make the text be in two lines  */
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+
+
+/* TESTIMONALS SECTION  */
+
+
+#testimonials{
+  text-align:center;
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;  /* This makes the image circle */
+  margin: 20;
+}
+
+
+
+
+#press{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom: 5%;
+}
+
+.press-logos{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 100px;
+
+}
+
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+
+
+/* CALL TO ACTION SECTION */
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+
+.footer-icons{
+  margin: 20px 10px;
+}
+
+.copyright-text{
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .phone-image{
+    position: static; /* This will make the phone go underneath the download buttons with the flow of the html */
+    transform: rotate(0); /* This will rotato the image back to normal when it gets to a smaller viewpoert size , You just need to add 0 to correct it back to normal angle */
+  }
+
+
+}
