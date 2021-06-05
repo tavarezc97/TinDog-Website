@@ -33,7 +33,7 @@ p{
 /* CONTAINER */
 
 .container-fluid{
-  padding: 7% 15% ;  /*The top and bottom 7% , and 15% left and right , this is a Bootstrap class to keep it responsive*/
+  padding: 7% 15% ;  
 
 }
 
@@ -58,7 +58,6 @@ p{
 /* NAVAGATION BAR */
 
 
-/* This will be 0 to the top 0 to the left and right and 4.5 to the bottom so its aligned more with the text  */
 .navbar{
   padding: 0 0 4.5rem;
 }
@@ -120,15 +119,14 @@ p{
 
 
 #features{
-  position: relative;       /* This will keep the element in the HTML flow, 7% top and bottom and 15% left and right so that it is centered */
-
+  position: relative;       
 }
 
 .feature-title{
   font-size: 1.5rem;
 }
 
-.feature-section{      /* The padding helps to make the text be in two lines  */
+.feature-section{      
   padding: 5%;
 }
 
@@ -200,11 +198,6 @@ p{
   padding: 3% 2%;
 }
 
-
-
-
-
-/* CALL TO ACTION SECTION */
 
 
 
